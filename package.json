@@ -1,6 +1,6 @@
 {
   "name": "meteor-check",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Check whether a value matches a pattern library from Meteor made compatible for Nodejs and Browserify",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "underscore": "1.7.x",
-    "ejson": "2.0.1"
+    "underscore": "1.8.3",
+    "ejson": "2.1.2",
+    "fibers": "2.0.0"
   },
   "devDependencies": {
-    "assume": "1.1.x",
-    "mocha": "2.2.x",
-    "pre-commit": "1.0.x"
+    "assume": "1.5.2",
+    "mocha": "4.0.1",
+    "pre-commit": "1.2.2"
   }
 }
