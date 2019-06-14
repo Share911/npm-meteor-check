@@ -421,7 +421,7 @@ Meteor.bindEnvironment = function (func, onException, _this) {
 //    - heterogenous arrays
 
 var currentArgumentChecker = new Meteor.EnvironmentVariable;
-var isPlainObject = require("./isPlainObject.js").isPlainObject;
+var isPlainObject = require("./vendor/isPlainObject.js").isPlainObject;
 
 /**
  * @summary Check that a value matches a [pattern](#matchpatterns).

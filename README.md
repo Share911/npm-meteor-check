@@ -1,5 +1,9 @@
 # check
 
+```
+import { check, Match } from '@share911/meteor-check'
+```
+
 See the [meteor check documentation](http://docs.meteor.com/#check) for more
 detailed information.
 

@@ -1,11 +1,11 @@
 {
-  "name": "meteor-check",
+  "name": "@share911/meteor-check",
   "version": "1.0.7",
   "description": "Check whether a value matches a pattern library from Meteor made compatible for Nodejs and Browserify",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node build.js",
-    "test": "npm run prepublish && mocha --check-leaks test.js"
+    "prepare": "node build.js",
+    "test": "npm run prepare && mocha --check-leaks test.js"
   },
   "keywords": [
     "Meteor",
@@ -25,7 +25,9 @@
   },
   "devDependencies": {
     "assume": "1.5.2",
-    "mocha": "4.0.1",
+    "debug": "^4.1.1",
+    "diff": "^4.0.1",
+    "mocha": "^6.1.4",
     "pre-commit": "1.2.2"
   }
 }
