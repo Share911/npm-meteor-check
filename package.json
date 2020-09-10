@@ -15,7 +15,7 @@
   "author": "Morten Henriksen",
   "repository": {
     "type": "git",
-    "url": "git://github.com/raix/npm-meteor-check.git"
+    "url": "git://github.com/Share911/npm-meteor-check.git"
   },
   "license": "MIT",
   "dependencies": {
